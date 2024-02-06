@@ -1,0 +1,188 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello"
+                
+            ],
+            "responses" : [
+                "Hi, how can I help you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Thanks for contacting NSB."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "thank you", "Thats Helpful", "Thank's a lot!"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "bank accounts",
+            "patterns": [
+                "what type of bank accounts you all have?",
+                "What are the bank account types i could open",
+                "Types of bank accounts have"
+                
+            ],
+            "responses": [
+                "We have savings accounts, fix deposit accounts, current accounts etc.."
+                
+            ]
+        },
+        {
+            "tag": "Credit/ Debit cards",
+            "patterns": [
+                "Do you all issue debit or credit cards?",
+                "what are the cards you all issue",
+                "Types of cards you all issue",
+                "Can i have a card"
+                
+            ],
+            "responses": [
+                "Yes, our bank will be issuing VISA and Mastercards",
+                "our bank will be issuing VISA and Mastercards"
+            ]
+        },
+        {
+            "tag": "Opening a new bank account",
+            "patterns": [
+                "How can i open a new bank account?",
+                "How could i open a new bank account?",
+                "How do you prefer for me to open a new bank account?",
+                "How to open a new bank account?"
+            ],
+            "responses": [
+                "Opening a new bank account is easy! You can visit our website and fill out the online application or visit one of our branches to speak with a representative."
+            ]
+        },
+        {
+            "tag": "Requirements for opening a savings account",
+            "patterns": [
+                "What are the requirements needed to open a savings account",
+                "What is needed to open a savings account",
+                "what do you all need from me to open a savings account",
+                "What is needed for a savings account"
+            ],
+            "responses": [
+                "To open a savings account, you'll typically need to provide your National Identity Card/ Valid Driving License/ Valid Passport that carries the NIC number" 
+            ]
+        },
+        {
+            "tag": "Apply for a Credit card",
+            "patterns": [
+                "How do i apply for a credit card",
+                "How could i apply for a credit card",
+                "How may i apply for a credit card",
+                "How to apply for a credit card"
+            ],
+            "responses": [
+                "You can apply for a credit card online through our website. Simply fill out the application form with your personal and financial information. Once submitted, our team will review your application and notify you of the decision." 
+            ]
+        },
+        {
+            "tag": "Transfer money between accounts",
+            "patterns": [
+                "How can i transfer money between my bank accounts",
+                "How could i transfer money between the accounts",
+                "How should i transfer money between the bank accounts of mine",
+                "How to transfer money between the bank accounts "
+            ],
+            "responses": [
+                "You can easily transfer money between your accounts through our online banking platform or mobile banking app. Alternatively, you can visit one of our ATM's." 
+            ]
+        },
+        {
+            "tag": "Bank online App",
+            "patterns": [
+                "can i have some info about the bank online app",
+                "could i have some info about the bank online app",
+                "What is your online app",
+                "online app details",
+                "details of your online app"
+            ],
+            "responses": [
+                "Absolutely! Our mobile banking app allows you to check account balances, view transaction history, transfer funds, pay bills, deposit checks, and much more It's available for both iOS and Android devices. You can download the app from the respective app stores and follow the instructions to set it up. If you need any assistance during the process, feel free to ask.",
+                "Our mobile banking app allows you to check account balances, view transaction history, transfer funds, pay bills, deposit checks, and much more It's available for both iOS and Android devices. You can download the app from the respective app stores and follow the instructions to set it up. If you need any assistance during the process, feel free to ask." 
+            ]
+        },
+        {
+            "tag": "Asking for Account balance",
+            "patterns": [
+                "can i get the account balance of mine",
+                "Could you the check the account balance please",
+                "what is my bank account balance",
+                "what is my account balance",
+                "Account balance please"
+            ],
+            "responses": [
+                "Could you please provide me the Account number / name of the account holder and the NIC Number to verify" 
+            ]
+        },
+        {
+            "tag": "Hirushi Account Details",
+            "patterns": [
+                "1111, Hirushi, 20002000",
+                "1111, Hirushi Abeyrathne, 20002000",
+                "1111,Hirushi Abeyrathne,20002000"      
+            ],
+            "responses": [
+                "Your Account Balance is LKR 225,000/=" 
+            ]
+        },
+        {
+            "tag": "Sakun Account Details",
+            "patterns": [
+                "2222, Sakun, 19961996",  
+                "2222, Sakun kavindu, 19961996",
+                "2222,Sakun kavindu,19961996"   
+            ],
+            "responses": [
+                "Your Account Balance is LKR 500,000/=" 
+            ]
+        },
+        {
+            "tag": "Nafrath Account Details",
+            "patterns": [
+                "3333, Nafrath, 200120011",
+                "3333,Nafrath,200120011"     
+            ],
+            "responses": [
+                "Your Account Balance is LKR 350,000/=" 
+            ]
+        },
+        {
+            "tag": "Thamindu Account Details",
+            "patterns": [
+                "4444, Thamindu, 200120012", 
+                "4444, Thamindu Perera, 200120012",
+                "4444,Thamindu Perera,200120012"   
+            ],
+            "responses": [
+                "Your Account Balance is LKR 400,000/=" 
+            ]
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]
+}
